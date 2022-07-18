@@ -12,3 +12,4 @@ dependencies:
 - scipy=1.8.1
 - ffmpeg=5.0.1
 - tqdm=4.64.0
+- matplotlib=3.5.2
