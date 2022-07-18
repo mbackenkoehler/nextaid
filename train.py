@@ -14,9 +14,9 @@ from tqdm import tqdm
 
 
 # test
-import matplotlib.pyplot as plt
-plt.plot([1,2,3,4])
-plt.savefig('test_output.png')
+#import matplotlib.pyplot as plt
+#plt.plot([1,2,3,4])
+#plt.savefig('test_output.png')
 
 target = 0 # dipole moment
 dim = 64
