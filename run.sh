@@ -1,2 +1,2 @@
-cd /home/s9gtgros/nextaid/
+cd /home/$USER/nextaid/
 python train.py
