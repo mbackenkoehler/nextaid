@@ -1,1 +1,1 @@
-output > outputfile.txt 
+echo "this is a line" > outfile.txt
