@@ -21,7 +21,7 @@ RUN mkdir /main
 RUN mkdir /main/home
 WORKDIR /main
 
-RUN git clone https://github.com/gerritgr/nextaid.git
+# RUN git clone https://github.com/gerritgr/nextaid.git
 
 # Create a non-root user and switch to it
 #RUN adduser --disabled-password --gecos '' --shell /bin/bash $username \
