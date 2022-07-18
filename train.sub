@@ -1,6 +1,6 @@
 universe = docker
-docker_image = gerritgr/nextaid:2022-07-18--35-28
-executable = run.sh
+docker_image = gerritgr/nextaid:latest
+executable = train.py
 output = train_qm9.$(ClusterId).$(ProcId).out
 error = train_qm9.$(ClusterId).$(ProcId).err
 log = train_qm9.$(ClusterId).log
