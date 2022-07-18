@@ -12,6 +12,12 @@ from torch_geometric.utils import remove_self_loops
 
 from tqdm import tqdm
 
+
+# test
+import matplotlib.pyplot as plt
+plt.plot([1,2,3,4])
+plt.savefig('test_output.png')
+
 target = 0 # dipole moment
 dim = 64
 
