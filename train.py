@@ -18,6 +18,9 @@ from tqdm import tqdm
 #plt.plot([1,2,3,4])
 #plt.savefig('test_output.png')
 
+with open('readme.txt', 'w') as f:
+    f.write('readme')
+
 target = 0 # dipole moment
 dim = 64
 
