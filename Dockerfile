@@ -22,10 +22,10 @@ RUN mkdir /main/home
 WORKDIR /main
 
 # Create a non-root user and switch to it
-RUN adduser --disabled-password --gecos '' --shell /bin/bash $username \
-    && chown -R $username:$username /main
-RUN echo "user ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/90-user
-USER $username
+#RUN adduser --disabled-password --gecos '' --shell /bin/bash $username \
+#    && chown -R $username:$username /main
+#RUN echo "user ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/90-user
+#USER $username
 
 # All users can use /home/user as their home directory
 ENV HOME=/main/home
