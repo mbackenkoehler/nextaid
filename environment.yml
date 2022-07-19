@@ -1,6 +1,8 @@
 name: base
 channels:
-- conda-forge
+  - bioconda
+  - conda-forge
+  - defaults
 dependencies:
 - cudatoolkit=11.3.1
 - numpy=1.22.4
@@ -17,7 +19,7 @@ dependencies:
 - pandas=1.1.5
 - seaborn=0.11.2
 - scikit-learn=0.24
+- matchms=0.16.0
 - pip:
   - deepchem==2.5.0
-  - matchms
 
