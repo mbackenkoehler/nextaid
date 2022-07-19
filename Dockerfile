@@ -46,4 +46,4 @@ RUN curl -sLo ~/mambaforge.sh https://github.com/conda-forge/miniforge/releases/
     && mamba clean -ya
     
 # install jax
-RUN pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+#RUN pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html  # should be don in env file
