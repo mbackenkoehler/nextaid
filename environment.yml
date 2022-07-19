@@ -17,5 +17,7 @@ dependencies:
 - pandas=1.1.5
 - seaborn=0.11.2
 - scikit-learn=0.24
-
+- pip:
+  - deepchem==2.5.0
+  - matchms
 
