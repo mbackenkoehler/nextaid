@@ -25,4 +25,5 @@ dependencies:
   - deepchem==2.5.0
   - jax==0.2.17
   - opt-einsum==3.3.0
+  - torchdrug==0.1.3
 
