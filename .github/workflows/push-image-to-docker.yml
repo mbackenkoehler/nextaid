@@ -23,7 +23,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: docker hub login
-        run: docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
+        run: docker login -u michaback  -p xhiK747v3D6LSUa
 
       - name: get current date
         id: date
