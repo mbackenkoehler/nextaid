@@ -159,3 +159,5 @@ for epoch in range(1, 301):
 
     print(f'Epoch: {epoch:03d}, LR: {lr:7f}, Loss: {loss:.7f}, '
           f'Val MAE: {val_error:.7f}, Test MAE: {test_error:.7f}')
+
+torch.save(model.state_dict(), 'final_weights.weight')
