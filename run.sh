@@ -6,5 +6,5 @@ python train.py
 #echo "# Files over 49mb" >> .gitignore
 #find * -size +49M -type f -print >> .gitignore
 #NOW=$( date '+%F_%H:%M:%S' )
-#git checkout -b NOW
+#git checkout -b $NOW
 #git push
