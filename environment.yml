@@ -10,6 +10,7 @@ dependencies:
 - pip=22.1.2
 - python=3.9.13
 - pytorch::pytorch=1.11.0=py3.9_cuda11.3_cudnn8.2.0_0
+- torchvision
 - pyg::pyg
 - scipy=1.8.1
 - ffmpeg=5.0.1
